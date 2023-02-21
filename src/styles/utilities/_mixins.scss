@@ -1,0 +1,11 @@
+@mixin grid($columns, $space) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  gap: $space;
+
+  @include mobileL {
+    grid-template-columns: 1;
+
+    gap: 0em;
+  }
+}

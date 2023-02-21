@@ -1,0 +1,9 @@
+a {
+  color: $_white;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    color: $_red_100;
+  }
+}
