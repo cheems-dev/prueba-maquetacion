@@ -1,0 +1,76 @@
+.card {
+  &__component {
+    max-width: 320px;
+
+    &-normal {
+      color: $_dark-500;
+    }
+
+    &-alternative {
+      background-color: $_alternative;
+      color: $_white;
+    }
+  }
+
+  &__layout {
+    border-left: 2px solid $_dark_50;
+    padding-left: 6px;
+  }
+
+  &__horizontal {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 160px;
+    gap: 8px;
+  }
+
+  &__vertical-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 16px;
+  }
+
+  &__vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__site {
+    display: flex;
+  }
+
+  &__title {
+    &-normal {
+      color: $_eucalyptus;
+    }
+
+    &-alternative {
+      color: $_yellow;
+    }
+
+    &-alternative-blue {
+      color: $_alternative;
+    }
+  }
+
+  &__content {
+    padding: 8px;
+  }
+
+  &__bg {
+    &-normal {
+      background-color: inherit;
+    }
+
+    &-alternative {
+      background-color: $_dark_50;
+    }
+  }
+}
+
+.card__horizontal {
+  h3 {
+    font-size: $_fs-19;
+  }
+}

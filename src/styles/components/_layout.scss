@@ -1,0 +1,16 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 16px;
+
+  &__cards {
+    @include grid(3, "16px");
+  }
+
+  &__subCards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

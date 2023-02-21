@@ -16,3 +16,18 @@ h2 {
 h3 {
   font-size: $fs-title-s;
 }
+
+h4 {
+  font-size: $fs-title-sm;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: $fs-body;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: $fs-menu;
+  font-weight: bolder;
+}
