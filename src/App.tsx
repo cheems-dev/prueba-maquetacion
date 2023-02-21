@@ -31,8 +31,8 @@ function App() {
       </div>
       <div className={classes.card}>
         <div className={classes.subCard}>
-          <Card direction="horizontal" />
-          <Card direction="horizontal" />
+          <Card direction="horizontal" type="alternative-blue" />
+          <Card direction="horizontal" type="alternative-blue" />
         </div>
         <Card direction="vertical-reverse" type="alternative-blue" />
         <Card
