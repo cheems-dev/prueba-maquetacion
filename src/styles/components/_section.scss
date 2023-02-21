@@ -1,0 +1,21 @@
+.section {
+  &__layout {
+    padding: 8px;
+  }
+
+  &__normal {
+    background-color: $_green-pea;
+    color: $_white;
+  }
+
+  &__ghost {
+    color: $_alternative;
+    border-top: 2px solid $_alternative;
+    border-bottom: 2px solid $_alternative;
+  }
+
+  &__alternative {
+    background-color: $_alternative;
+    color: $_white;
+  }
+}
